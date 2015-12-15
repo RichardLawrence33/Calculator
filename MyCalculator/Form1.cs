@@ -36,5 +36,31 @@ namespace MyCalculator
             else
                 textBoxResult.Text = textBoxResult.Text + button.Text;
         }
+        private void Submit_click(object sender, EventArgs e)
+        {
+            if (operationPerformed != true)
+            {
+                switch (performedOperation)
+                {
+                    case "+":
+                        textBoxResult.Text = (resultValue + Double.Parse(textBoxResult.Text)).ToString();
+                        break;
+                    case "-":
+                        textBoxResult.Text = (resultValue - Double.Parse(textBoxResult.Text)).ToString();
+                        break;
+                    case "*":
+                        textBoxResult.Text = (resultValue * Double.Parse(textBoxResult.Text)).ToString();
+                        break;
+                    case "/":
+                        textBoxResult.Text = (resultValue / Double.Parse(textBoxResult.Text)).ToString();
+                        break;
+                    default:
+                        break;
+                }
+                resultValue = Double.Parse(textBoxResult.Text);
+                currentOperation.Text = " ";
+                operationPerformed = true;
+            }
+        }
     }
 }

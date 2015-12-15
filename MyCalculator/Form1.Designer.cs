@@ -51,7 +51,6 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.additionalFeaturesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.findCircleCircumferenceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -245,6 +244,7 @@
             this.Submit.TabIndex = 18;
             this.Submit.Text = "=";
             this.Submit.UseVisualStyleBackColor = true;
+            this.Submit.Click += new System.EventHandler(this.Submit_click);
             // 
             // textBoxResult
             // 
@@ -273,14 +273,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(422, 28);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // additionalFeaturesToolStripMenuItem
-            // 
-            this.additionalFeaturesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.findCircleCircumferenceToolStripMenuItem});
-            this.additionalFeaturesToolStripMenuItem.Name = "additionalFeaturesToolStripMenuItem";
-            this.additionalFeaturesToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
-            this.additionalFeaturesToolStripMenuItem.Text = "Additional features";
             // 
             // Form1
             // 
@@ -346,7 +338,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem additionalFeaturesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem findCircleCircumferenceToolStripMenuItem;
     }
 }
 
