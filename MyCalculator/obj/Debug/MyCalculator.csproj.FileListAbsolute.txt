@@ -1,0 +1,21 @@
+c:\users\pat\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+c:\users\pat\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe
+c:\users\pat\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\bin\Debug\MyCalculator.pdb
+c:\users\pat\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csprojResolveAssemblyReference.cache
+c:\users\pat\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.Form1.resources
+c:\users\pat\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.Properties.Resources.resources
+c:\users\pat\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.GenerateResource.Cache
+c:\users\pat\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
+c:\users\pat\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb
+C:\Users\Pat\Videos\Calculator project\MyCalculator\bin\Debug\MyCalculator.exe.config
+C:\Users\Pat\Videos\Calculator project\MyCalculator\obj\Debug\MyCalculator.exe
+C:\Users\Pat\Videos\Calculator project\MyCalculator\obj\Debug\MyCalculator.pdb
+C:\Users\Pat\Videos\Calculator project\First iteration\MyCalculator\bin\Debug\MyCalculator.exe.config
+C:\Users\Pat\Videos\Calculator project\First iteration\MyCalculator\obj\Debug\MyCalculator.exe
+C:\Users\Pat\Videos\Calculator project\First iteration\MyCalculator\obj\Debug\MyCalculator.pdb
+C:\Users\Pat\Videos\Calculator project\First iteration\MyCalculator\obj\Debug\MyCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Pat\Videos\Calculator project\First iteration\MyCalculator\obj\Debug\MyCalculator.Form1.resources
+C:\Users\Pat\Videos\Calculator project\First iteration\MyCalculator\obj\Debug\MyCalculator.Properties.Resources.resources
+C:\Users\Pat\Videos\Calculator project\First iteration\MyCalculator\obj\Debug\MyCalculator.csproj.GenerateResource.Cache
+C:\Users\Pat\Videos\Calculator project\First iteration\MyCalculator\bin\Debug\MyCalculator.exe
+C:\Users\Pat\Videos\Calculator project\First iteration\MyCalculator\bin\Debug\MyCalculator.pdb
