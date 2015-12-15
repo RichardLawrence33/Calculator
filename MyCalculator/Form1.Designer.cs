@@ -51,6 +51,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.additionalFeaturesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.findCircleCircumferenceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,6 +64,7 @@
             this.Num3.TabIndex = 1;
             this.Num3.Text = "3";
             this.Num3.UseVisualStyleBackColor = true;
+            this.Num3.Click += new System.EventHandler(this.button_click);
             // 
             // Num2
             // 
@@ -73,6 +75,7 @@
             this.Num2.TabIndex = 2;
             this.Num2.Text = "2";
             this.Num2.UseVisualStyleBackColor = true;
+            this.Num2.Click += new System.EventHandler(this.button_click);
             // 
             // Num1
             // 
@@ -83,6 +86,7 @@
             this.Num1.TabIndex = 3;
             this.Num1.Text = "1";
             this.Num1.UseVisualStyleBackColor = true;
+            this.Num1.Click += new System.EventHandler(this.button_click);
             // 
             // Num4
             // 
@@ -93,6 +97,7 @@
             this.Num4.TabIndex = 6;
             this.Num4.Text = "4";
             this.Num4.UseVisualStyleBackColor = true;
+            this.Num4.Click += new System.EventHandler(this.button_click);
             // 
             // Num5
             // 
@@ -103,6 +108,7 @@
             this.Num5.TabIndex = 5;
             this.Num5.Text = "5";
             this.Num5.UseVisualStyleBackColor = true;
+            this.Num5.Click += new System.EventHandler(this.button_click);
             // 
             // Num6
             // 
@@ -113,6 +119,7 @@
             this.Num6.TabIndex = 4;
             this.Num6.Text = "6";
             this.Num6.UseVisualStyleBackColor = true;
+            this.Num6.Click += new System.EventHandler(this.button_click);
             // 
             // Num7
             // 
@@ -123,6 +130,7 @@
             this.Num7.TabIndex = 9;
             this.Num7.Text = "7";
             this.Num7.UseVisualStyleBackColor = true;
+            this.Num7.Click += new System.EventHandler(this.button_click);
             // 
             // Num8
             // 
@@ -133,6 +141,7 @@
             this.Num8.TabIndex = 8;
             this.Num8.Text = "8";
             this.Num8.UseVisualStyleBackColor = true;
+            this.Num8.Click += new System.EventHandler(this.button_click);
             // 
             // Num9
             // 
@@ -143,6 +152,7 @@
             this.Num9.TabIndex = 7;
             this.Num9.Text = "9";
             this.Num9.UseVisualStyleBackColor = true;
+            this.Num9.Click += new System.EventHandler(this.button_click);
             // 
             // Num0
             // 
@@ -153,6 +163,7 @@
             this.Num0.TabIndex = 10;
             this.Num0.Text = "0";
             this.Num0.UseVisualStyleBackColor = true;
+            this.Num0.Click += new System.EventHandler(this.button_click);
             // 
             // Decimal
             // 
@@ -163,6 +174,7 @@
             this.Decimal.TabIndex = 11;
             this.Decimal.Text = ".";
             this.Decimal.UseVisualStyleBackColor = true;
+            this.Decimal.Click += new System.EventHandler(this.button_click);
             // 
             // Addition
             // 
@@ -262,6 +274,14 @@
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // additionalFeaturesToolStripMenuItem
+            // 
+            this.additionalFeaturesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.findCircleCircumferenceToolStripMenuItem});
+            this.additionalFeaturesToolStripMenuItem.Name = "additionalFeaturesToolStripMenuItem";
+            this.additionalFeaturesToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
+            this.additionalFeaturesToolStripMenuItem.Text = "Additional features";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -326,6 +346,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem additionalFeaturesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem findCircleCircumferenceToolStripMenuItem;
     }
 }
 
