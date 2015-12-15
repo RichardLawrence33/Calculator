@@ -36,6 +36,40 @@ namespace MyCalculator
             else
                 textBoxResult.Text = textBoxResult.Text + button.Text;
         }
+
+        private void operator_click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+
+            if (resultValue != 0)
+            {
+                Submit.PerformClick();
+                performedOperation = button.Text;
+                currentOperation.Text = resultValue + " " + performedOperation;
+                textBoxResult.Text = "0";
+                operationPerformed = true;
+            }
+            else
+            {
+                performedOperation = button.Text;
+                resultValue = Double.Parse(textBoxResult.Text);
+                currentOperation.Text = resultValue + " " + performedOperation;
+                textBoxResult.Text = "0";
+                operationPerformed = true;
+            }
+
+        }
+        private void ClearEvent_Click(object sender, EventArgs e)
+        {
+            textBoxResult.Text = "0";
+            resultValue = 0;
+        }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            textBoxResult.Text = "0";
+        }
+
         private void Submit_click(object sender, EventArgs e)
         {
             if (operationPerformed != true)
@@ -54,6 +88,9 @@ namespace MyCalculator
                     case "/":
                         textBoxResult.Text = (resultValue / Double.Parse(textBoxResult.Text)).ToString();
                         break;
+                    case "circumference":
+                        textBoxResult.Text = (Double.Parse(textBoxResult.Text) * 2 * 3.14).ToString();
+                        break;
                     default:
                         break;
                 }
@@ -61,6 +98,12 @@ namespace MyCalculator
                 currentOperation.Text = " ";
                 operationPerformed = true;
             }
+        }
+
+        private void findCircumference_Click(object sender, EventArgs e)
+        {
+            currentOperation.Text = "Input the radius of the circle";
+            performedOperation = "circumference";
         }
     }
 }

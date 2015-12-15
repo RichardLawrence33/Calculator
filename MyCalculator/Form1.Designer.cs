@@ -51,6 +51,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.additionalFeaturesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.findCircleCircumferenceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -184,6 +185,7 @@
             this.Addition.TabIndex = 12;
             this.Addition.Text = "+";
             this.Addition.UseVisualStyleBackColor = true;
+            this.Addition.Click += new System.EventHandler(this.operator_click);
             // 
             // Subtraction
             // 
@@ -194,6 +196,7 @@
             this.Subtraction.TabIndex = 13;
             this.Subtraction.Text = "-";
             this.Subtraction.UseVisualStyleBackColor = true;
+            this.Subtraction.Click += new System.EventHandler(this.operator_click);
             // 
             // Multiplication
             // 
@@ -204,6 +207,7 @@
             this.Multiplication.TabIndex = 14;
             this.Multiplication.Text = "*";
             this.Multiplication.UseVisualStyleBackColor = true;
+            this.Multiplication.Click += new System.EventHandler(this.operator_click);
             // 
             // Division
             // 
@@ -214,6 +218,7 @@
             this.Division.TabIndex = 15;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
+            this.Division.Click += new System.EventHandler(this.operator_click);
             // 
             // ClearEntry
             // 
@@ -224,6 +229,7 @@
             this.ClearEntry.TabIndex = 16;
             this.ClearEntry.Text = "CE";
             this.ClearEntry.UseVisualStyleBackColor = true;
+            this.ClearEntry.Click += new System.EventHandler(this.ClearEvent_Click);
             // 
             // Clear
             // 
@@ -234,6 +240,7 @@
             this.Clear.TabIndex = 17;
             this.Clear.Text = "C";
             this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.clear_Click);
             // 
             // Submit
             // 
@@ -273,6 +280,21 @@
             this.menuStrip1.Size = new System.Drawing.Size(422, 28);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // additionalFeaturesToolStripMenuItem
+            // 
+            this.additionalFeaturesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.findCircleCircumferenceToolStripMenuItem});
+            this.additionalFeaturesToolStripMenuItem.Name = "additionalFeaturesToolStripMenuItem";
+            this.additionalFeaturesToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
+            this.additionalFeaturesToolStripMenuItem.Text = "Additional features";
+            // 
+            // findCircleCircumferenceToolStripMenuItem
+            // 
+            this.findCircleCircumferenceToolStripMenuItem.Name = "findCircleCircumferenceToolStripMenuItem";
+            this.findCircleCircumferenceToolStripMenuItem.Size = new System.Drawing.Size(242, 24);
+            this.findCircleCircumferenceToolStripMenuItem.Text = "Find circle circumference";
+            this.findCircleCircumferenceToolStripMenuItem.Click += new System.EventHandler(this.findCircumference_Click);
             // 
             // Form1
             // 
@@ -338,6 +360,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem additionalFeaturesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem findCircleCircumferenceToolStripMenuItem;
     }
 }
 
